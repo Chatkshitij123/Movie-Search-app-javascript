@@ -26,5 +26,36 @@ nav{
     font-size: 16px;
 }
 .search-container input {
-    border-radius: 2px;
+    border-radius: 3px 0 0 3px;
+}
+.search-container button {
+    border: 0 3px 3px 0;
+    background: #f5c518;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.search-container button:hover {
+    background: #ffdd45;
+}
+/* Main Movie Section Styling */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-block: 38px;
+}
+main section {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    background: #232f3e;
+    color: #fff;
+    padding-block: 20px;
+    margin-top: 40px;
+    font-size: 20px;
 }
